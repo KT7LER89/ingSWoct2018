@@ -24,7 +24,7 @@ public class calcularEdad {
            System.out.println("Para la fecha de nacimiento "+ d + "/"+m+ "/"+a+" los años calculados son "+calcular(new GregorianCalendar(a,m,d)));
            
            String ruta = "C://Users/tyler/Desktop/deber/filename.txt";
-            String contenido = "Para la fecha de nacimiento "+ d + "/"+m+ "/"+a+" los años calculados son "+ Integer.toString(calcular(new GregorianCalendar(a,m,d)));
+            String contenido = "Si nacio el "+ d + "/"+m+ "/"+a+" su edad es  "+ Integer.toString(calcular(new GregorianCalendar(a,m,d)))+ d + "/"+m+ "/"+a+" años  ";
             File file = new File(ruta);
              // Si el archivo no existe es creado
             if (!file.getParentFile().exists())
